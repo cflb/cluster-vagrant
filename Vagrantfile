@@ -4,7 +4,8 @@
 machines = {
   "manager2"   => {"memory" => 2048, "cpus" => 2, "ip" => "10", "image" => "ubuntu/bionic64"},
   "no1"   => {"memory" => 1024, "cpus" => 1, "ip" => "11", "image" => "ubuntu/focal64"},
-  "no2"   => {"memory" => 1024, "cpus" => 1, "ip" => "12", "image" => "centos/7"}
+  "no2"   => {"memory" => 1024, "cpus" => 1, "ip" => "12", "image" => "centos/7"},
+  "no3"   => {"memory" => 1024, "cpus" => 1, "ip" => "13", "image" => "ubuntu/bionic64"},
 }
 
 Vagrant.configure("2") do |config|
